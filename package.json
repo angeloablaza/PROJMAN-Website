@@ -1,0 +1,26 @@
+{
+    "name": "projman-website",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/angeloablaza/PROJMAN-Website.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/angeloablaza/PROJMAN-Website/issues"
+    },
+    "homepage": "https://github.com/angeloablaza/PROJMAN-Website#readme",
+    "dependencies": {
+        "express": "^4.16.4",
+        "path": "^0.12.7"
+    },
+    "engine": {
+        "node": "v10.6.0"
+    }
+}
