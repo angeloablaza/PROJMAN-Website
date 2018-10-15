@@ -1,0 +1,129 @@
+body {
+    background-color: #121212;
+}
+
+/*
+.carousel_container{
+    margin: 10px;
+}
+*/
+.navbar {
+    height: 67px;
+    /* background-color: #1f1e1e; */
+    background-color: rgba(18, 18, 18, 0.95);
+    opacity: 0.8;
+}
+
+.navbar-brand {
+    font-size: 18pt;
+}
+
+.col {
+    height: 300px;
+    width: 90px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #35445B;
+}
+
+.row {
+    /*    width: 100%;*/
+    padding: 40px;
+}
+
+/*
+img {
+    height: 90%;
+    width: 90%;
+}
+*/
+.carousel_container {
+    /*    padding: 25px;*/
+}
+
+.carousel_container img {
+    /*    border-radius: 5px;*/
+    /*    border: 1.6px solid #b3b3b3;*/
+    height: 90%;
+    width: 90%;
+}
+
+.wrapper {
+    /*
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 380px 380px 380px;
+  grid-gap: 54px;
+*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.box {
+    margin: 17px; /*to fix the flex thinggy*/
+    border-radius: 10px;
+    border: 0.5px solid #1db954;
+    padding: 18px;
+    color: white;
+    /*    padding:2px;*/
+    /*full box mode*/
+    /*    font-size: 150%;*/
+    height: 320px;
+    background-color: #212121;
+}
+
+.box img {
+    height: 200px;
+    width: 345px;
+    /*    width: 378px;*/
+    /*full box mode*/
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.box:hover {
+    transition-delay: 0.04s;
+    transition-timing-function: ease-in-out;
+    /*    background-color: #535353;*/
+    opacity: 0.75;
+}
+
+.details {
+    word-spacing: 15px;
+    font-weight: 300;
+}
+
+.details i {
+    padding-right: 7px;
+}
+
+.address {
+    color: #808080;
+}
+
+.modal img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    height: 70%;
+}
+
+.modal .details {
+    margin: 5 auto;
+    text-align: center;
+    /*    word-spacing: 170px;*/
+    padding: 4px;
+    border: 0.5px solid #1db954;
+    width: 97.5%;
+    border-radius: 5px;
+}
+
+.modal_details {
+    margin: 10px;
+}
