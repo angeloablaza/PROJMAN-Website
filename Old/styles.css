@@ -8,16 +8,30 @@ body {
 }
 */
 .navbar {
-    /*    height: 67px;*/
+    height: 67px;
     /* background-color: #1f1e1e; */
-    /*    background-color: #1db954;*/
-    background-color: rgba(18, 18, 18, 0.5);
-    /*So that only background goes opaque*/
+    background-color: rgba(18, 18, 18, 0.95);
+    opacity: 0.8;
 }
 
 .navbar-brand {
     font-size: 18pt;
 }
+
+.col {
+    height: 300px;
+    width: 90px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #35445B;
+}
+
+.row {
+    /*    width: 100%;*/
+    padding: 40px;
+}
+
 
 .carousel_container {
     /*    padding: 25px;*/
@@ -38,15 +52,15 @@ body {
   grid-gap: 54px;
 */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+
 }
 
 .box {
-    margin: 17px;
-    /*to fix the flex thinggy*/
+    margin: 17px; /*to fix the flex thinggy*/
     border-radius: 10px;
     border: 0.5px solid #1db954;
     padding: 18px;
@@ -56,26 +70,15 @@ body {
     /*    font-size: 150%;*/
     height: 320px;
     background-color: #212121;
-    display: flex;
-    flex-direction: row;
-}
-
-.description {
-    flex-grow: 1;
-    padding: 15px;
 }
 
 .box img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block;
-    border-radius: 4px;
-    /*    padding: 2px;
-    height: 280px;
+    height: 200px;
     width: 345px;
-     full box mode
-*/
+    /*    width: 378px;*/
+    /*full box mode*/
+    border-radius: 4px;
+    padding: 2px;
 }
 
 .box:hover {
@@ -89,7 +92,6 @@ body {
     word-spacing: 15px;
     font-weight: 300;
 }
-
 
 .details i {
     padding-right: 7px;
@@ -119,43 +121,4 @@ body {
 
 .modal_details {
     margin: 10px;
-}
-
-footer {
-/*    text-align: center;*/
-    background-color: #1db954;
-    color: white;
-    padding: 35px;
-}
-
-footer a {
-    text-align: center;
-    color: inherit;
-}
-
-footer a:hover {
-    color: inherit;
-}
-
-header {
-    color: white;
-    background-color: rgb(29, 185, 84, 0.9);
-    padding: 30px;
-    /*    padding-left: 50px;*/
-    text-align: center;
-}
-
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-/*    justify-content: space-around;*/
-}
-
-.left, .right{
-    flex-grow: 1;
-}
-
-footer p{
-    text-align: justify;
 }
